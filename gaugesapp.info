@@ -1,1 +1,6 @@
 name = Gaug.es
+description = "Integration with Gaug.es"
+core = 7.x
+package = Statistics
+php = 5.2
+configure = admin/config/system/gaugesapp
