@@ -50,8 +50,9 @@ function gaugesapp_admin_settings_form() {
  *   code to every page.
  */
 function gaugesapp_init() {
+  $gaugesapp_id = variable_get('gaugesapp_id', '');
 
-  // if (!empty($gaugesapp_id)) {
+  if (!empty($gaugesapp_id)) {
     drupal_add_js('(function() {
     var t   = document.createElement(\'script\');
     t.type  = \'text/javascript\';
@@ -65,5 +66,5 @@ function gaugesapp_init() {
       'type' => 'inline',
       'scope' => 'footer',
     ));
-  // }
+  }
 }
