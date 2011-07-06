@@ -30,7 +30,6 @@ function gaugesapp_menu() {
 /**
  * Administration form callback.
  */
-
 function gaugesapp_admin_settings_form() {
   $form = array();
 
